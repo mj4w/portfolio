@@ -7,7 +7,7 @@ function NavBar(text) {
 
   navigator.clipboard.writeText(text)
   .then(() => {
-    alert('Discord Username Copied!');
+    console.log('Discord Username Copied!');
   })
   .catch((error) => {
     console.error('Error Copying',error);
