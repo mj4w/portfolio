@@ -1,0 +1,8 @@
+[0802/131022.158:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost
+[0802/131425.194:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(77,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(99,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0802/135535.338:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///D:/Program%20FIles%20-Marcel/Photoshop%202020/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0802/135549.919:ERROR:shader_disk_cache.cc(257)] Failed to create shader cache entry: -2
+[0802/141437.183:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost

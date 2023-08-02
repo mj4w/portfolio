@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,300&family=Poppins:wght@500&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+h1{
+    font-family: 'Russo One', sans-serif;
+
+    
+}
+h2 {
+    font-family: 'Russo One', sans-serif;
+}
+
+body {
+    background-color:#f8fafc;
+    font-family: 'Chivo', sans-serif;
+}
+
+.p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+}
