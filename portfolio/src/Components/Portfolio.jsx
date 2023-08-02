@@ -9,19 +9,19 @@ function Portfolio() {
   // Sample data for demonstration
   const sampleData = [
     {
-      text: 'E-commerce Website built in Django',
+      text: 'E-commerce Website',
       link: 'https://github.com/mj4w/WIFFBAR_PH',
     },
     {
-      text: 'Rapid Code Quest built in Django',
+      text: 'Rapid Code Quest',
       link: 'https://github.com/mj4w/RapidCodeQuest',
     },
     {
-      text: 'Social Media built in Django',
+      text: 'Social Media',
       link: 'https://github.com/mj4w/SM_DjangoWebsite',
     },
     {
-        text: 'Notepad built in Django API + React',
+        text: 'Notepad built',
         link: 'https://github.com/mj4w/django-react_integrate',
       },
     // Add more data as needed
