@@ -21,7 +21,7 @@ function Portfolio() {
       link: 'https://github.com/mj4w/SM_DjangoWebsite',
     },
     {
-        text: 'Notepad built',
+        text: 'Notepad built in Django API + React',
         link: 'https://github.com/mj4w/django-react_integrate',
       },
     // Add more data as needed
