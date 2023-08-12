@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import ReactPaginate from 'react-paginate';
+import eCommerceImg from '../static/img/imgEcommerce.png';
+import codeQuestImg from '../static/img/imgRapidQuest.jpg';
+import notepadImg from '../static/img/imgNotepad.png';
+import socialmediaImg from '../static/img/imgSocialMedia.png';
+
 
 const PAGE_SIZE = 1;
 
@@ -9,20 +14,25 @@ function Portfolio() {
   // Sample data for demonstration
   const sampleData = [
     {
-      text: 'E-commerce Website',
+      text: 'E-commerce',
       link: 'https://github.com/mj4w/WIFFBAR_PH',
+      image: eCommerceImg
     },
     {
-      text: 'Rapid Code Quest',
+      text: 'Code Quest',
       link: 'https://github.com/mj4w/RapidCodeQuest',
+      image: codeQuestImg,
+
     },
     {
       text: 'Social Media',
       link: 'https://github.com/mj4w/SM_DjangoWebsite',
+      image: socialmediaImg
     },
     {
-        text: 'Notepad built in Django API + React',
+        text: 'Notepad',
         link: 'https://github.com/mj4w/django-react_integrate',
+        image: notepadImg
       },
     // Add more data as needed
   ];
@@ -45,6 +55,8 @@ function Portfolio() {
           return (
             <div key={index} className='m-auto md:p-4 '>
               <p className='text-slate-500 p mb-5 md:text-2xl text-1xl p-4 text-center'>{item.text}</p>
+              
+              <img src={item.image} alt={item.text} className='md:w-[30%] w-[100%] mx-w-[70%] md:mx-w-[100%] flex items-center justify-center m-auto mb-8 rounded-md' />
               <a href={item.link} target="_blank" rel="noopener noreferrer" className='bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded'>
                 Source Code
               </a>
