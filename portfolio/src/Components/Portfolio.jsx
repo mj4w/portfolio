@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import ReactPaginate from 'react-paginate';
 import eCommerceImg from '../static/img/imgEcommerce.png';
 import codeQuestImg from '../static/img/imgRapidQuest.jpg';
 import notepadImg from '../static/img/imgNotepad.png';
 import socialmediaImg from '../static/img/imgSocialMedia.png';
+import pansnapImg from '../static/img/pansnap.png';
+import birthdayImg from '../static/img/birthday.png';
 
 
 const PAGE_SIZE = 1;
@@ -33,10 +34,20 @@ function Portfolio() {
         text: 'Notepad',
         link: 'https://github.com/mj4w/django-react_integrate',
         image: notepadImg
-      },
+    },
+    {
+      text: 'Birthday',
+      link: 'https://github.com/mj4w/HBD2U',
+      image: birthdayImg
+    },
+    {
+      text: 'Pansnap',
+      link: 'https://github.com/mj4w?tab=repositories',
+      image: pansnapImg
+    },
     // Add more data as needed
   ];
-
+  const itemCount = sampleData.length;
   const handlePageChange = (selected) => {
     setCurrentPage(selected.selected);
   };
@@ -49,11 +60,12 @@ function Portfolio() {
 
   return (
     <div className='text-center w-[50%] items-center justify-center m-auto'>
-      <h1 className='text-2xl'>Projects</h1>
+      <h1 className='text-2xl'><span className='text-[#384f81]'>{itemCount}</span> Projects</h1>
       <div>
         {getPageData().map((item, index) => {
           return (
             <div key={index} className='m-auto md:p-4 '>
+     
               <p className='text-slate-500 p mb-5 md:text-2xl text-1xl p-4 text-center'>{item.text}</p>
               
               <img src={item.image} alt={item.text} className='md:w-[30%] w-[100%] mx-w-[70%] md:mx-w-[100%] flex items-center justify-center m-auto mb-8 rounded-md' />

@@ -3,6 +3,7 @@ import { AiFillFacebook, AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 import { BsDiscord } from 'react-icons/bs';
 import { BiLogoGmail } from 'react-icons/bi';
 
+
 function NavBar(text) {
 
   navigator.clipboard.writeText(text)
@@ -13,10 +14,10 @@ function NavBar(text) {
     console.error('Error Copying',error);
   });
   const handleDownload = () => {
-    const cvFilePath = 'pdf/MarcelJames_Aribal_Resume_2023.pdf';
+    const cvFilePath = 'pdf/Marcel_James_Aribal_Resume.pdf';
     const link = document.createElement('a');
     link.href = cvFilePath;
-    link.download = 'MarcelJames_Aribal_Resume_2023';
+    link.download = 'Marcel_James_Aribal_Resume';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
