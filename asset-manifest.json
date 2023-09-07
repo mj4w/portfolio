@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.df8d016a.css",
-    "main.js": "/portfolio/static/js/main.3ea253f7.js",
+    "main.css": "/portfolio/static/css/main.e3aebdc1.css",
+    "main.js": "/portfolio/static/js/main.945cff51.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/imgEcommerce.png": "/portfolio/static/media/imgEcommerce.4aa42d4ea15f1b57b4a3.png",
     "static/media/profile1.png": "/portfolio/static/media/profile1.e628509fcea185196aeb.png",
+    "static/media/pansnap.png": "/portfolio/static/media/pansnap.3a1d0ad0850b9c810cf9.png",
+    "static/media/birthday.png": "/portfolio/static/media/birthday.f42753aba01cf20bae43.png",
     "static/media/imgSocialMedia.png": "/portfolio/static/media/imgSocialMedia.a0231c59e27f19abc725.png",
     "static/media/imgNotepad.png": "/portfolio/static/media/imgNotepad.52ea1442d5b3326aee80.png",
     "static/media/imgRapidQuest.jpg": "/portfolio/static/media/imgRapidQuest.897b535c4f2fcb072dd3.jpg",
     "index.html": "/portfolio/index.html",
-    "main.df8d016a.css.map": "/portfolio/static/css/main.df8d016a.css.map",
-    "main.3ea253f7.js.map": "/portfolio/static/js/main.3ea253f7.js.map",
+    "main.e3aebdc1.css.map": "/portfolio/static/css/main.e3aebdc1.css.map",
+    "main.945cff51.js.map": "/portfolio/static/js/main.945cff51.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df8d016a.css",
-    "static/js/main.3ea253f7.js"
+    "static/css/main.e3aebdc1.css",
+    "static/js/main.945cff51.js"
   ]
 }
